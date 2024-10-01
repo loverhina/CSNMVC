@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Account\Edit.cshtml" />
+    <Content Remove="Views\Account\Enroll.cshtml" />
+    <Content Remove="Views\Account\History.cshtml" />
+    <Content Remove="Views\Account\Request.cshtml" />
+    <Content Remove="Views\Home\Login.cshtml" />
+    <Content Remove="Views\PreReg\Prereg.cshtml" />
+    <Content Remove="Views\PreReg\Prereg2.cshtml" />
+    <Content Remove="Views\PreReg\Prereg3.cshtml" />
+    <Content Remove="Views\PreReg\Prereg4.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Account\Edit.cshtml" />
+    <None Include="Views\Account\Enroll.cshtml" />
+    <None Include="Views\Account\History.cshtml" />
+    <None Include="Views\Account\Request.cshtml" />
+    <None Include="Views\Home\Login.cshtml" />
+    <None Include="Views\PreReg\Prereg.cshtml" />
+    <None Include="Views\PreReg\Prereg2.cshtml" />
+    <None Include="Views\PreReg\Prereg3.cshtml" />
+    <None Include="Views\PreReg\Prereg4.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.8" />
+  </ItemGroup>
+
+</Project>
