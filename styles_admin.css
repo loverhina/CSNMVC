@@ -1,0 +1,93 @@
+body {
+    font-family: 'Montserrat', sans-serif; /* Set Montserrat as the default font */
+    display: flex; /* Enable flexbox layout */
+}
+
+/* Lighter card background colors */
+.card.bg-info {
+    background-color: rgba(23, 162, 184, 0.7); /* Lighter info background */
+}
+
+.card.bg-warning {
+    background-color: rgba(255, 193, 7, 0.7); /* Lighter warning background */
+}
+
+.card.bg-danger {
+    background-color: rgba(220, 53, 69, 0.7); /* Lighter danger background */
+}
+
+.logo-container {
+    text-align: center; /* Center the logo and text */
+    margin-bottom: 20px; /* Space between the logo and nav items */
+}
+
+.logo {
+    width: 150px; /* Logo width */
+    height: auto; /* Maintain aspect ratio for logo height */
+}
+
+.logo-text {
+    font-size: 20px; /* Font size for logo text */
+    color: black; /* Text color */
+}
+
+h2.margin {
+    margin-top: 20px; /* Set 5px margin from the top */
+}
+
+.nav {
+    flex-grow: 1; /* Allow this section to grow */
+}
+
+.nav-item {
+    margin-bottom: 15px; /* Consistent gap between items */
+}
+
+/* Optional: If you want to specifically style the registered parents and parent participation items */
+.nav-link {
+    padding: 10px; /* Ensuring consistent padding for clickable area */
+    text-decoration: none; /* Removing underline */
+    color: black; /* Default text color */
+}
+
+/* Ensure active link color is consistent */
+.nav-link.active {
+    font-weight: bold; /* Highlight active link */
+}
+
+.nav-link i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* Change color of both text and icon on hover */
+.nav-link:hover {
+    color: #FFD846; /* Change color on hover */
+}
+
+.dropdown-menu {
+    background-color: #f8f9fa; /* Keep dropdown menu consistent */
+    padding-left: 15px; /* Adjust alignment of dropdown items */
+}
+
+/* Statistics section styling */
+.container {
+    flex-grow: 1; /* Allow content to grow and fill space */
+    padding: 20px; /* Padding for the content area */
+    background-color: #f8f9fa; /* Light background for content */
+}
+
+main {
+    margin-left: 10px; /* Adjust this value based on the width of your sidebar */
+    padding: 5px; /* Add padding for inner spacing */
+}
+
+.pending-container {
+    width: 50%; /* Set width to 50% */
+    margin-top: 20px; /* Add top margin for spacing */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto; /* Center the container horizontally */
+}
+
+.card {
+    width: 100%; /* Ensure the card takes the full width of its parent */
+}
