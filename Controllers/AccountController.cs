@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace CSN_Parents_Portal.Controllers
+namespace CSNMVC.Controllers
 {
     public class AccountController : Controller
     {
